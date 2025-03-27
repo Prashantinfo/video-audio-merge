@@ -1,0 +1,22 @@
+<!-- Customer selection -->
+<select (change)="onCustomerChange($event)">
+  <option value="" disabled selected>Select a customer</option>
+  <option *ngFor="let customer of customers" [value]="customer">{{ customer }}</option>
+</select>
+
+<!-- Display dynamic text -->
+<p>Selected Customer: {{ customerName || 'None' }}</p>
+
+<!-- Video element -->
+<video #videoElement controls muted>
+  <!-- Video content -->
+</video>
+
+<!-- Audio element -->
+<audio #audioElement [src]="audioUrl" controls></audio>
+
+<!-- Playback controls -->
+<div>
+  <button (click)="play()">Play</button>
+  <button (click)="pause()">Pause</button>
+</div>

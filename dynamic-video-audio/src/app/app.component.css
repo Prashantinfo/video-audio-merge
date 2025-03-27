@@ -1,0 +1,61 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .customer-selection {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  select {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+  }
+  
+  .video-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  video {
+    width: 100%;
+    max-width: 640px;
+    border: 2px solid #333;
+    border-radius: 5px;
+  }
+  
+  .name-overlay {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 8px 12px;
+    border-radius: 4px;
+    pointer-events: none;
+    z-index: 10;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  p span {
+    font-weight: bold;
+    color: #007bff;
+  }

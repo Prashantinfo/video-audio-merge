@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pre-Selected Name on Video</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Customer Name on Video</h1>
+        <div id="videoContainer">
+            <video id="myVideo" controls>
+                <!-- Replace with your video URL -->
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div id="nameOverlay"></div>
+        </div>
+        <p>Customer Name: <span id="selectedName"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

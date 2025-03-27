@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#videoContainer {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#myVideo {
+    width: 100%;
+    max-width: 640px;
+    border: 2px solid #333;
+    border-radius: 5px;
+}
+
+#nameOverlay {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 8px 12px;
+    border-radius: 4px;
+    pointer-events: none; /* Prevents overlay from blocking video controls */
+}
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#selectedName {
+    font-weight: bold;
+    color: #007bff;
+}
